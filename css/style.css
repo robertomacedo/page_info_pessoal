@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Lato,"Roboto+Condensed", sans-serif;
+}
+h1,h2,h3{
+    font-family: Lato, sans-serif;
+}
+p{
+    font-family: "Roboto+Condensed" sans-serif;
+}
+.logo img{
+    border-radius: 50%;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E90FF;
+    padding: 30px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+nav ul li{
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    padding: 2%;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ---------------Header----------------*/
+header{
+    background-image: url('../img/fungoh.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+header p{
+    margin-bottom: 2em;
+    font-size: 1.7em;
+}
+.botao{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color:  #1E90FF;
+    font-size: -8em;
+    border-radius: 20px;
+}
+.botao:hover{
+    background-color:  #61a7ec;
+}
+
+
+@media screen and (min-width: 768px){
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+}
+/*----------header----------*/
+header{
+    height: 600px;
+    height: 60vh;
+    justify-content: center;
+}
+/*------------------Sobre-----------------*/
+.container{
+    width: 100%;
+}
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #1E90FF;
+    color: #fff;
+}
+.foto img{
+    width: 50%;
+}
+.foto{
+    float: left;
+    width: 50%;
+}
+.texto{
+    float: right;
+    width: 50%;
+}
+
+#sobre h2{
+    text-align: center;
+    width: 100%;
+}
+
+#sobre{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+    min-height: 80vh;
+}
+#sobre div{
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0 10px;
+}
+#especialidades{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+#especialidades div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+#especialidades p{
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2em;
+}
+#especialidades div{
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 0 10px;
+}
+#especialidades img{
+    margin: 10px 0;
+}
+#especialidades h2{
+    font-size: 2em;
+}
+#especialidades h2{
+    text-align: center;
+    width: 100%;
+}
+#especialidades{
+    flex-direction: rew;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
