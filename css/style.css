@@ -177,4 +177,59 @@ header{
     display: flex;
     background-color: #000000;
     color: #fff;
+    padding: 30vh;
+    text-align: center;
+}
+#competencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#competencias h2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+#competencias h3,p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    text-align: center;
+    outline: none;
+}
+#competencias a{
+    text-decoration: none;
+}
+#competencias img{
+    width: 80%;
+    margin-bottom: 0;
+    padding: 10px;
+}
+#competencias .comp p{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 0%;
+    border-radius: 20%;
+    padding: 15px;
+    padding-left: 15px;
+    line-height: 1,5;
+}
+
+/*competencias tela grande*/
+#competencias{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#competencias h2, h3{
+    width: 100%;
+    text-align: center;
+}
+#competencias .comp{
+    width: 33.333333333%;
+    text-align: center;
 }
